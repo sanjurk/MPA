@@ -1,0 +1,59 @@
+<!doctype html>
+<!--[if lte IE 9]>
+<html lang="en" class="oldie">
+<![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="8ud/1Dgrr5Wsj7JLavfhLjdTFDcb3IhU6FVkMIL55h++Ec0MhFRsXz5Z0K4O1G9w3Zyx2S/QWlHL/z1HmdLV2A==" />
+
+<title>CodePen - Music Player App </title>
+<link rel="stylesheet" media="screen" href="https://cpwebassets.codepen.io/assets/fullpage/fullpage-96f5da14bc71e5883d519b4eb5e93297dde552c2f91a97fcfb30035219cf1c1a.css" />
+<link rel="stylesheet" media="all" href="https://cpwebassets.codepen.io/assets/global/global-6a150eac7a80000612762f64319ccecfb6109d0c30ae009124b8ca203d06ef75.css" />
+<link rel="stylesheet" media="screen" href="https://cpwebassets.codepen.io/assets/packs/css/everypage-e1bbda70.css" />
+<link rel="stylesheet" media="all" href="https://cpwebassets.codepen.io/assets/page/page-151fd0d4c18605a4c86646a3ff130a77463d4440240de07ce34c57ec06a43950.css" />
+<link rel="stylesheet" media="all" href="https://cpwebassets.codepen.io/assets/editor/editor-375830164d8de27a32e48d23ea5b2ac79e6ed40d8d4bcf6d2de5e8848de64ff5.css" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@CodePen">
+<meta name="twitter:title" content="Music Player App ">
+<meta name="twitter:description" content="...">
+<meta name="twitter:image" content="https://shots.codepen.io/sanjeev-smasher/pen/BaOxZbv-800.jpg?version=1678896751">
+<meta property="og:image" content="https://shots.codepen.io/sanjeev-smasher/pen/BaOxZbv-800.jpg?version=1678896751" itemprop="thumbnailUrl">
+<meta property="og:title" content="Music Player App ">
+<meta property="og:url" content="https://codepen.io/sanjeev-smasher/details/BaOxZbv">
+<meta property="og:site_name" content="CodePen">
+<meta property="og:description" content="...">
+<link rel="alternate" type="application/json+oembed" href="https://codepen.io/api/oembed?url=https%3A%2F%2Fcodepen.io%2Fsanjeev-smasher%2Fpen%2FBaOxZbv&format=json" title="Music Player App " />
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<meta name="apple-mobile-web-app-title" content="CodePen">
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+<link rel="mask-icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-b4b4269c16397ad2f0f7a01bcdf513a1994f4c94b8af2f191c09eb0d601762b1.svg" color="#111" />
+<script nonce="eZ8WfHmq+CM=">
+  /* Firefox needs this to prevent FOUT */
+</script>
+</head>
+<body class="fullpage logged-in sidebar-false">
+<header id="main-header" class="main-header"></header>
+<div class="oldie-header">
+<a href="https://codepen.io/sanjeev-smasher/pen/BaOxZbv?nocache=true&amp;view=pen">Edit Pen</a>
+</div>
+<div id="result-iframe-wrap" role="main">
+<iframe id="result" src="https://cdpn.io/sanjeev-smasher/fullpage/BaOxZbv?nocache=true&amp;view=fullpage" sandbox="allow-forms allow-modals allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation allow-downloads allow-presentation" allow="accelerometer; camera; encrypted-media; display-capture; geolocation; gyroscope; microphone; midi; clipboard-read; clipboard-write" allowTransparency="true" allowpaymentrequest="true" allowfullscreen="true" class="result-iframe" loading="lazy"></iframe>
+</div>
+<div id="full-view-ad"></div>
+<textarea id="init-data" style="display:none">{&quot;__browser&quot;:{&quot;device&quot;:&quot;unknown_device&quot;,&quot;mobile&quot;:false,&quot;name&quot;:&quot;chrome&quot;,&quot;platform&quot;:&quot;pc&quot;,&quot;version&quot;:&quot;111&quot;},&quot;__constants&quot;:{},&quot;__CPDATA&quot;:{&quot;domain_iframe&quot;:&quot;https://cdpn.io&quot;,&quot;environment&quot;:&quot;production&quot;,&quot;host&quot;:&quot;codepen.io&quot;,&quot;iframe_allow&quot;:&quot;accelerometer; camera; encrypted-media; display-capture; geolocation; gyroscope; microphone; midi; clipboard-read; clipboard-write&quot;,&quot;iframe_sandbox&quot;:&quot;allow-forms allow-modals allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation allow-downloads allow-presentation&quot;},&quot;__graphql&quot;:{&quot;data&quot;:{&quot;data&quot;:{&quot;sessionUser&quot;:{&quot;id&quot;:&quot;EPPgQk&quot;,&quot;name&quot;:&quot;Sanjeev Smasher&quot;,&quot;title&quot;:&quot;Sanjeev Smasher&quot;,&quot;avatar&quot;:&quot;https://assets.codepen.io/t-1/user-default-avatar.jpg?format=auto&amp;version=0&quot;,&quot;currentContext&quot;:{&quot;id&quot;:&quot;EPPgQk&quot;,&quot;title&quot;:&quot;Sanjeev Smasher&quot;,&quot;name&quot;:&quot;Sanjeev Smasher&quot;,&quot;avatar&quot;:&quot;https://assets.codepen.io/t-1/user-default-avatar.jpg?format=auto&amp;version=0&quot;,&quot;username&quot;:&quot;sanjeev-smasher&quot;,&quot;__typename&quot;:&quot;User&quot;},&quot;currentTeamId&quot;:null,&quot;username&quot;:&quot;sanjeev-smasher&quot;,&quot;admin&quot;:false,&quot;anon&quot;:false,&quot;pro&quot;:false,&quot;verified&quot;:true,&quot;teams&quot;:[],&quot;__typename&quot;:&quot;User&quot;}}},&quot;url&quot;:&quot;https://codepen.io/graphql&quot;,&quot;api&quot;:&quot;cprails&quot;,&quot;cpedata&quot;:{&quot;action&quot;:&quot;show_secure_full_page&quot;,&quot;controller&quot;:&quot;fullpage&quot;}},&quot;__user&quot;:{&quot;anon&quot;:false,&quot;base_url&quot;:&quot;/sanjeev-smasher/&quot;,&quot;current_team_id&quot;:0,&quot;current_team_hashid&quot;:null,&quot;hashid&quot;:&quot;EPPgQk&quot;,&quot;id&quot;:6118606,&quot;itemType&quot;:&quot;user&quot;,&quot;name&quot;:&quot;Sanjeev Smasher&quot;,&quot;paid&quot;:false,&quot;tier&quot;:0,&quot;username&quot;:&quot;sanjeev-smasher&quot;,&quot;created_at&quot;:&quot;2021-04-14T08:51:37.000Z&quot;,&quot;email_verified&quot;:true,&quot;collections_count&quot;:1,&quot;collections_private_count&quot;:1,&quot;followers_count&quot;:0,&quot;followings_count&quot;:0,&quot;pens_count&quot;:75,&quot;pens_private_count&quot;:0,&quot;projects_count&quot;:0,&quot;projects_private_count&quot;:0},&quot;__firebase&quot;:{&quot;config&quot;:{&quot;apiKey&quot;:&quot;AIzaSyBgLAe7N_MdFpuVofMkcQLGwwhUu5tuxls&quot;,&quot;authDomain&quot;:&quot;codepen-store-production.firebaseapp.com&quot;,&quot;databaseURL&quot;:&quot;https://codepen-store-production.firebaseio.com&quot;,&quot;disabled&quot;:false,&quot;projectId&quot;:&quot;codepen-store-production&quot;},&quot;token&quot;:&quot;eyJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJodHRwczovL2lkZW50aXR5dG9vbGtpdC5nb29nbGVhcGlzLmNvbS9nb29nbGUuaWRlbnRpdHkuaWRlbnRpdHl0b29sa2l0LnYxLklkZW50aXR5VG9vbGtpdCIsImNsYWltcyI6eyJvd25lcklkIjoiRVBQZ1FrIiwiYWRtaW4iOmZhbHNlfSwiZXhwIjoxNjc4OTAwNDM3LCJpYXQiOjE2Nzg4OTY4MzcsImlzcyI6ImZpcmViYXNlLWFkbWluc2RrLThva3lsQGNvZGVwZW4tc3RvcmUtcHJvZHVjdGlvbi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInN1YiI6ImZpcmViYXNlLWFkbWluc2RrLThva3lsQGNvZGVwZW4tc3RvcmUtcHJvZHVjdGlvbi5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsInVpZCI6IkVQUGdRayJ9.k8UQCV1P-TTBZ17diJl8I3AysmSxvyzCA-bF7kbd4lbi7KQNanMcxJ5mtbxloZABG4xD5RhrmQLZFf1xsXLv3rzGVCjOhQI4GytwVA8BCSmd4uB4OkQdnREMLGzKNotczowB1K3iWXw0UhrJAttgbjxeVEV-TTxoSyg3QMjDH6OyoPlWxZi_sEjQl61b1bjTHhTUjpRE5h2CifsudSPJM8d_YsMh36zE8nkNf3cIL5NjPb0MNycOw2PNtFJIVs5KALKHwWVAGSmok4eXAtMJmevJuBQurgMd239QK3ji1Vwvs-UyCeAuDQopTfZaTXRVmDRYXKEY6dbCP5s9MsA_dA&quot;},&quot;__pay_stripe_public_key&quot;:&quot;pk_live_2GndomDfiklqpSNQn8FrGuwZSMIMzha7DkLJqlYe7IR0ihKAlKdiHg68JJc5eVPt68rzAjzAAVXcUwjySHRCsgjQQ00gtRBUFNH&quot;,&quot;__pay_braintree_env&quot;:&quot;production&quot;,&quot;__item&quot;:&quot;{\&quot;id\&quot;:67145423,\&quot;hashid\&quot;:\&quot;BaOxZbv\&quot;,\&quot;itemType\&quot;:\&quot;pen\&quot;,\&quot;user_id\&quot;:6118606,\&quot;slug_hash\&quot;:\&quot;BaOxZbv\&quot;,\&quot;private\&quot;:false,\&quot;slug_hash_private\&quot;:\&quot;b6a83b4f4ad918892fa392ff7b918aaa\&quot;}&quot;,&quot;__profiled&quot;:{&quot;base_url&quot;:&quot;/sanjeev-smasher&quot;,&quot;hashid&quot;:&quot;EPPgQk&quot;,&quot;id&quot;:6118606,&quot;name&quot;:&quot;Sanjeev Smasher&quot;,&quot;type&quot;:&quot;user&quot;,&quot;username&quot;:&quot;sanjeev-smasher&quot;},&quot;__pageType&quot;:&quot;full&quot;}</textarea>
+<div id="popup-overlay" class="overlay popup-overlay"></div>
+<div id="modal-overlay" class="overlay modal-overlay"></div>
+<script src="https://cpwebassets.codepen.io/assets/common/everypage-b1fe1ca71dab80c49b8e5ebed21506a80cb6fe64ecaa8c6dddae5aca7b1e34d7.js"></script>
+<script src="https://fast.appcues.com/69186.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/common/analytics_and_notifications-dabea89133f3a919e973a927aebbc27318967ac159bc8c7b657d656880822e14.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/packs/js/vendor-2fbf5eb61d32be003c1c.chunk.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/packs/js/1-7e7516f3b34b389b31a8.chunk.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/packs/js/everypage-78bd6e4bc25fa7848e3f.js"></script>
+<script src="https://cpwebassets.codepen.io/assets/editor/full/full_page_renderer-74c0df88dc71f0228dc09f732aac0a6e7dd92c69e877b8cfa0e1299480c7fb9e.js"></script>
+</body>
+</html>
